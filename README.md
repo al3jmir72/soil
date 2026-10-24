@@ -9,3 +9,11 @@ Condensed Markdown study notes (equations in LaTeX) for an introductory soil mec
 | 3 | [Weight–Volume Relationships](Ch03_Weight-Volume_Relationships.md) |
 | 4 | [Plasticity and Structure of Soil](Ch04_Plasticity_and_Structure_of_Soil.md) |
 | 5 | [Classification of Soil](Ch05_Classification_of_Soil.md) |
+
+## Exam prep (exam: 9 Nov 2026)
+
+| File | What it is |
+|---|---|
+| [cheat-sheet.md](cheat-sheet.md) | One-document summary of Ch. 1–5: formulas, tables, worked-example answers, exam traps |
+| [study-plan.md](study-plan.md) | Day-by-day plan from 24 Oct to exam day, with tick-boxes |
+| [deck/](deck/) | Source files of the 48-slide animated deck (`deck.json` + one HTML file per slide in `deck/slides/`) |

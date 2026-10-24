@@ -1,0 +1,34 @@
+<section id="ch4-ll" data-transition="push" style="background:#F6F2EA;color:#1B2A33;font-family:'Nunito Sans',Arial,sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:24px">
+  <p style="font-size:24px;font-weight:700;letter-spacing:3px;color:#A8472A">CHAPTER 4  ·  LIQUID LIMIT</p>
+  <h2 style="font-family:'Fredoka',Arial,sans-serif;font-size:72px;font-weight:600;line-height:1.1;color:#1B2A33">Two ways to find the LL</h2>
+
+  <x-embed style="position:absolute;left:128px;top:300px;width:680px;height:470px"><style>
+html,body{margin:0;background:transparent;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+#w{position:relative;width:680px;height:470px}
+#hd{position:absolute;left:0;top:10px;width:680px;text-align:center;font-size:24px;font-weight:700;color:#4A5560}
+#pat{position:absolute;left:30px;top:70px;width:620px;height:230px;background:#7A5440;border-radius:40px}
+#gap{position:absolute;top:70px;height:230px;background:#F6F2EA}
+#cnt{position:absolute;left:0;top:330px;width:680px;text-align:center;font-size:44px;font-weight:700;color:#1B2A33}
+#msg{position:absolute;left:0;top:398px;width:680px;text-align:center;font-size:26px;font-weight:700;color:#1F6F66}
+</style>
+<div id="w"><div id="hd">Casagrande cup, top view of the groove</div><div id="pat"></div><div id="gap"></div><div id="cnt">Blows: 0</div><div id="msg">Tap, tap, tap…</div></div>
+<script>
+var n=0,hold=0,gap=document.getElementById('gap'),cnt=document.getElementById('cnt'),msg=document.getElementById('msg');
+function show(){var g=70*(1-n/25);gap.style.width=g+'px';gap.style.left=(340-g/2)+'px';cnt.textContent='Blows: '+n;msg.textContent=n>=25?'Closed at 25 blows: this w = LL':'Tap, tap, tap…';}
+show();
+setInterval(function(){if(hold>0){hold--;return;}n++;if(n>25){n=0;}show();if(n>=25){hold=9;}},260);
+</script></x-embed>
+
+  <div data-build-in="rise 1" style="position:absolute;left:840px;top:300px;width:952px;height:236px;background:#FBF9F4;border:2px solid #E2DACB;border-radius:24px;padding:24px 28px;display:flex;flex-direction:column;gap:8px">
+    <p style="font-family:'Fredoka',Arial,sans-serif;font-size:34px;font-weight:600;line-height:1.1;color:#A8472A">Casagrande cup (ASTM D-4318)</p>
+    <p style="font-size:26px;line-height:1.4;color:#1B2A33">Cup drops 10 mm. LL = water content when the groove closes 12.5 mm after 25 blows. Run 3 or more tests with N from 15 to 35, then plot w against log N (the flow curve).</p>
+  </div>
+  <div data-build-in="rise 2" style="position:absolute;left:840px;top:556px;width:952px;height:214px;background:#FBF9F4;border:2px solid #E2DACB;border-radius:24px;padding:24px 28px;display:flex;flex-direction:column;gap:8px">
+    <p style="font-family:'Fredoka',Arial,sans-serif;font-size:34px;font-weight:600;line-height:1.1;color:#1F6F66">Fall cone (BS 1377)</p>
+    <p style="font-size:26px;line-height:1.4;color:#1B2A33">30° cone, 80 g (0.78 N). LL = water content at 20 mm penetration in 5 s. Run 4 or more tests and plot w against the penetration d.</p>
+  </div>
+  <p data-build-in="fade 3" style="position:absolute;left:128px;top:796px;width:816px;height:124px;background:#D5EAE6;border-radius:20px;padding:0 28px;font-family:'Fredoka',Arial,sans-serif;font-size:32px;font-weight:500;line-height:1.3;color:#1B2A33;display:flex;align-items:center">One point: LL = wN (N / 25)^0.121</p>
+  <p data-build-in="fade 4" style="position:absolute;left:976px;top:796px;width:816px;height:124px;background:#F3DDD2;border-radius:20px;padding:0 28px;font-family:'Fredoka',Arial,sans-serif;font-size:32px;font-weight:500;line-height:1.3;color:#1B2A33;display:flex;align-items:center">Flow index: IF = (w1 − w2) / log(N2 / N1)</p>
+  <p style="position:absolute;left:128px;bottom:64px;font-size:24px;color:#5E666E">Chapter 4  ·  Plasticity</p>
+  <aside>The cup method is the standard one. Example 4.1: points (15 blows, 42.0 percent), (20, 40.8) and (28, 39.3) give LL about 39.5 percent and flow index about 9.96. Example 4.2: one test, N equals 20, w equals 40.8 percent gives LL equals 40.8 times 20 over 25 to the power 0.121, which is 39.7 percent. At the liquid limit the undrained shear strength is roughly 2 kilopascals.</aside>
+</section>

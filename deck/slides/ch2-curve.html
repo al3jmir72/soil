@@ -1,0 +1,42 @@
+<section id="ch2-curve" data-transition="push" style="background:#F6F2EA;color:#1B2A33;font-family:'Nunito Sans',Arial,sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:24px">
+  <p style="font-size:24px;font-weight:700;letter-spacing:3px;color:#A8472A">CHAPTER 2  ·  GRAIN-SIZE CURVE</p>
+  <h2 style="font-family:'Fredoka',Arial,sans-serif;font-size:72px;font-weight:600;line-height:1.1;color:#1B2A33">Read the shape of the curve</h2>
+
+  <svg style="position:absolute;left:200px;top:320px" width="760" height="480" viewBox="0 0 760 480">
+    <line x1="0" y1="0" x2="0" y2="480" stroke="#1B2A33" stroke-width="3"/>
+    <line x1="0" y1="480" x2="760" y2="480" stroke="#1B2A33" stroke-width="3"/>
+    <line x1="253" y1="0" x2="253" y2="480" stroke="#D8CFBE" stroke-width="2"/>
+    <line x1="506" y1="0" x2="506" y2="480" stroke="#D8CFBE" stroke-width="2"/>
+    <line x1="0" y1="240" x2="760" y2="240" stroke="#D8CFBE" stroke-width="2"/>
+    <line x1="0" y1="0" x2="760" y2="0" stroke="#D8CFBE" stroke-width="2"/>
+  </svg>
+  <p style="position:absolute;left:128px;top:285px;width:200px;font-size:24px;font-weight:700;color:#4A5560">% finer</p>
+  <p style="position:absolute;left:100px;top:303px;width:88px;font-size:24px;text-align:right;color:#4A5560;height:34px;line-height:34px">100</p>
+  <p style="position:absolute;left:100px;top:543px;width:88px;font-size:24px;text-align:right;color:#4A5560;height:34px;line-height:34px">50</p>
+  <p style="position:absolute;left:100px;top:783px;width:88px;font-size:24px;text-align:right;color:#4A5560;height:34px;line-height:34px">0</p>
+  <p style="position:absolute;left:150px;top:810px;width:100px;font-size:24px;text-align:center;color:#4A5560">10</p>
+  <p style="position:absolute;left:403px;top:810px;width:100px;font-size:24px;text-align:center;color:#4A5560">1</p>
+  <p style="position:absolute;left:656px;top:810px;width:100px;font-size:24px;text-align:center;color:#4A5560">0.1</p>
+  <p style="position:absolute;left:909px;top:810px;width:100px;font-size:24px;text-align:center;color:#4A5560">0.01</p>
+  <p style="position:absolute;left:200px;top:856px;width:760px;font-size:24px;font-weight:700;text-align:center;color:#1B2A33">Grain size (mm, log scale)</p>
+
+  <svg data-build-in="fade 1" style="position:absolute;left:200px;top:320px" width="760" height="480" viewBox="0 0 760 480">
+    <polyline points="0,0 233,0 292,48 329,144 368,288 405,408 461,466 506,480 760,480" fill="none" stroke="#A8472A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  </svg>
+  <svg data-build-in="fade 2" style="position:absolute;left:200px;top:320px" width="760" height="480" viewBox="0 0 760 480">
+    <polyline points="0,0 101,14 177,48 253,106 329,182 405,264 506,346 582,408 683,456 759,480" fill="none" stroke="#1F6F66" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  </svg>
+  <svg data-build-in="fade 3" style="position:absolute;left:200px;top:320px" width="760" height="480" viewBox="0 0 760 480">
+    <polyline points="0,0 70,20 100,200 130,225 330,230 360,300 400,380 450,440 510,480" fill="none" stroke="#1B2A33" stroke-width="6" stroke-dasharray="14 9" stroke-linejoin="round" stroke-linecap="round"/>
+  </svg>
+
+  <p data-build-in="rise 1" style="position:absolute;left:1010px;top:320px;width:782px;height:110px;background:#F3DDD2;border-radius:20px;padding:0 28px;font-size:26px;font-weight:600;line-height:1.35;color:#1B2A33;display:flex;align-items:center">Poorly (uniformly) graded: steep curve, grains almost all one size.</p>
+  <p data-build-in="rise 2" style="position:absolute;left:1010px;top:446px;width:782px;height:150px;background:#D5EAE6;border-radius:20px;padding:0 28px;font-size:26px;font-weight:600;line-height:1.35;color:#1B2A33;display:flex;align-items:center">Well graded: gentle curve, wide range of sizes. Needs Cu &gt; 4 (gravel) or &gt; 6 (sand), and 1 ≤ Cc ≤ 3.</p>
+  <p data-build-in="rise 3" style="position:absolute;left:1010px;top:612px;width:782px;height:110px;background:#E9E1D2;border-radius:20px;padding:0 28px;font-size:26px;font-weight:600;line-height:1.35;color:#1B2A33;display:flex;align-items:center">Gap graded (dashed): a flat part means a size range is missing.</p>
+  <div data-build-in="fade 4" style="position:absolute;left:1010px;top:740px;width:782px;height:180px;background:#1B2A33;border-radius:20px;padding:20px 28px;display:flex;flex-direction:column;justify-content:center;gap:10px">
+    <p style="font-family:'Fredoka',Arial,sans-serif;font-size:36px;font-weight:500;line-height:1.2;color:#F6F2EA">Cu = D60 / D10</p>
+    <p style="font-family:'Fredoka',Arial,sans-serif;font-size:36px;font-weight:500;line-height:1.2;color:#F0A27F">Cc = D30² / (D60 × D10)</p>
+  </div>
+  <p style="position:absolute;left:128px;bottom:64px;font-size:24px;color:#5E666E">Chapter 2  ·  Origin of soil</p>
+  <aside>Dx means the grain size at which x percent of the soil is finer. D10 is called the effective size and tells you about drainage. Cu measures the spread, Cc the shape. Both are needed: well graded needs Cu above 4 for gravels or above 6 for sands, and Cc between 1 and 3.</aside>
+</section>

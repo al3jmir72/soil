@@ -1,0 +1,30 @@
+{
+  "v": 4,
+  "createdOnFiles": { "v": 1, "at": "2026-10-24T12:00:00Z" },
+  "lists": "css",
+  "title": "Soil Mechanics Exam Prep",
+  "cover": "cover",
+  "order": [
+    "cover", "roadmap",
+    "ch1-title", "ch1-what", "ch1-timeline", "ch1-people", "ch1-pisa", "ch1-quiz",
+    "ch2-title", "ch2-rockcycle", "ch2-weathering", "ch2-clays", "ch2-sizes", "ch2-sieve", "ch2-curve", "ch2-example", "ch2-hydro", "ch2-quiz",
+    "ch3-title", "ch3-phase", "ch3-defs", "ch3-golden", "ch3-recipe", "ch3-example", "ch3-relden", "ch3-quiz",
+    "ch4-title", "ch4-limits", "ch4-ll", "ch4-plpi", "ch4-sl", "ch4-li", "ch4-activity", "ch4-chart", "ch4-structure", "ch4-quiz",
+    "ch5-title", "ch5-usda", "ch5-aashto", "ch5-gi", "ch5-uscs-coarse", "ch5-uscs-fine", "ch5-compare", "ch5-example", "ch5-quiz",
+    "recap-formulas", "mistakes", "closing"
+  ],
+  "sections": {
+    "s0": { "description": "What this deck is and how the five chapters fit together.", "start": "cover" },
+    "s1": { "description": "Chapter 1: the story of soil mechanics and who discovered what.", "start": "ch1-title" },
+    "s2": { "description": "Chapter 2: where soil comes from, clay minerals and grain-size analysis.", "start": "ch2-title" },
+    "s3": { "description": "Chapter 3: the phase diagram and weight-volume relationships.", "start": "ch3-title" },
+    "s4": { "description": "Chapter 4: Atterberg limits, plasticity and soil structure.", "start": "ch4-title" },
+    "s5": { "description": "Chapter 5: USDA, AASHTO and USCS soil classification.", "start": "ch5-title" },
+    "s6": { "description": "Formula recap, common mistakes and exam strategy.", "start": "recap-formulas" }
+  },
+  "faces": {
+    "fredoka": { "family": "Fredoka", "href": "https://fonts.googleapis.com/css2?family=Fredoka:wght@400..700&display=swap" },
+    "nunito-sans": { "family": "Nunito Sans", "href": "https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap" }
+  },
+  "designSystems": []
+}

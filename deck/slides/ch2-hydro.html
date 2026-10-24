@@ -1,0 +1,39 @@
+<section id="ch2-hydro" data-transition="push" style="background:#F6F2EA;color:#1B2A33;font-family:'Nunito Sans',Arial,sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:24px">
+  <p style="font-size:24px;font-weight:700;letter-spacing:3px;color:#A8472A">CHAPTER 2  ·  HYDROMETER ANALYSIS</p>
+  <h2 style="font-family:'Fredoka',Arial,sans-serif;font-size:72px;font-weight:600;line-height:1.1;color:#1B2A33">Slow settling tells us size</h2>
+  <p style="font-size:30px;line-height:1.4;color:#4A5560;width:780px">For grains finer than 0.075 mm, we time how fast they sink in water.</p>
+  <p style="font-family:'Fredoka',Arial,sans-serif;font-size:34px;font-weight:500;line-height:1.3;background:#F3DDD2;border-radius:20px;padding:18px 28px;width:780px;color:#1B2A33">Stokes: v = (ρs − ρw) D² / (18 η)</p>
+  <p style="font-family:'Fredoka',Arial,sans-serif;font-size:34px;font-weight:500;line-height:1.3;background:#D5EAE6;border-radius:20px;padding:18px 28px;width:780px;color:#1B2A33">D (mm) = K √( L / t )   L in cm, t in min</p>
+  <p style="font-size:28px;line-height:1.4;color:#4A5560;width:780px">Speed grows with D², so bigger grains sink first. Set-up: 50 g soil, dispersing agent (sodium hexametaphosphate), made up to 1000 mL, ASTM 152H hydrometer.</p>
+
+  <x-embed style="position:absolute;left:960px;top:290px;width:832px;height:630px"><style>
+html,body{margin:0;background:transparent;font-family:Arial,Helvetica,sans-serif;overflow:hidden}
+#w{position:relative;width:832px;height:630px}
+#cyl{position:absolute;left:96px;top:90px;width:640px;height:520px;box-sizing:border-box;border:5px solid #1B2A33;border-top:none;background:#CFE6EA;border-radius:0 0 28px 28px}
+.h{position:absolute;top:30px;width:200px;font-size:24px;font-weight:700;text-align:center;color:#1B2A33}
+.p{position:absolute;top:90px;border-radius:50%;opacity:0}
+.B{width:26px;height:26px;background:#7A5440;animation:f1 3.5s linear infinite}
+.M{width:14px;height:14px;background:#A8472A;animation:f2 9s linear infinite}
+.T{width:7px;height:7px;background:#1B2A33;animation:f3 24s linear infinite}
+@keyframes f1{0%{transform:translateY(0);opacity:1}100%{transform:translateY(480px);opacity:1}}
+@keyframes f2{0%{transform:translateY(0);opacity:1}100%{transform:translateY(490px);opacity:1}}
+@keyframes f3{0%{transform:translateY(0);opacity:1}100%{transform:translateY(495px);opacity:1}}
+</style>
+<div id="w">
+<div id="cyl"></div>
+<div class="h" style="left:130px">large: fast</div>
+<div class="h" style="left:316px">medium</div>
+<div class="h" style="left:502px">tiny: slow</div>
+<i class="p B" style="left:210px;animation-delay:0s"></i>
+<i class="p B" style="left:170px;animation-delay:-1.2s"></i>
+<i class="p B" style="left:250px;animation-delay:-2.4s"></i>
+<i class="p M" style="left:380px;animation-delay:0s"></i>
+<i class="p M" style="left:350px;animation-delay:-3s"></i>
+<i class="p M" style="left:410px;animation-delay:-6s"></i>
+<i class="p T" style="left:560px;animation-delay:0s"></i>
+<i class="p T" style="left:535px;animation-delay:-8s"></i>
+<i class="p T" style="left:590px;animation-delay:-16s"></i>
+</div></x-embed>
+  <p style="position:absolute;left:128px;bottom:64px;font-size:24px;color:#5E666E">Chapter 2  ·  Origin of soil</p>
+  <aside>At any reading time t, the hydrometer measures the density at depth L. The grains still floating there are smaller than the D given by D equals K times the square root of L over t. K depends on Gs and on water temperature. Effective depth for the 152H hydrometer is L equals 16.29 minus 0.164 R, in centimetres. Sieve and hydrometer curves are joined; a small jump appears because they measure size differently.</aside>
+</section>
