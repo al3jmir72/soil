@@ -16,4 +16,5 @@ Condensed Markdown study notes (equations in LaTeX) for an introductory soil mec
 |---|---|
 | [cheat-sheet.md](cheat-sheet.md) | One-document summary of Ch. 1–5: formulas, tables, worked-example answers, exam traps |
 | [study-plan.md](study-plan.md) | Day-by-day plan from 24 Oct to exam day, with tick-boxes |
-| [deck/](deck/) | Source files of the 48-slide animated deck (`deck.json` + one HTML file per slide in `deck/slides/`) |
+| [deck/soil-mechanics-slides.pdf](deck/soil-mechanics-slides.pdf) | All 48 slides as a PDF to read on GitHub or offline. Static: no animations or live demos, and a substitute font |
+| [deck/](deck/) | Source files of the animated deck (`deck.json` + one HTML file per slide in `deck/slides/`) |
