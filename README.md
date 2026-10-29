@@ -10,6 +10,10 @@ Condensed Markdown study notes (equations in LaTeX) for an introductory soil mec
 | 4 | [Plasticity and Structure of Soil](Ch04_Plasticity_and_Structure_of_Soil.md) |
 | 5 | [Classification of Soil](Ch05_Classification_of_Soil.md) |
 
+## Lab manual (CE-350L)
+
+The Kuwait University *Soil Lab Manual* (9 experiments) as Markdown: see [lab-manual/](lab-manual/README.md).
+
 ## Exam prep (exam: 9 Nov 2026)
 
 | File | What it is |
